@@ -1,0 +1,97 @@
+/* pages/rejester/index.wxss */
+
+.header {
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.userAvatarUrl {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.userNickName {
+  font-size: 32rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.content {
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rpx 27rpx;
+  height: 80rpx;
+}
+
+input {
+  text-align: right;
+}
+
+.tips {
+  display: flex;
+  align-items: center;
+  width: 300rpx;
+}
+
+.tips image {
+  width: 10rpx;
+  height: 10rpx;
+  margin-right: 9rpx;
+}
+.tips view {
+  display: flex;
+  flex-direction: row;
+}
+.upload {
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.5;
+  padding-left: 50rpx;
+}
+.choisemap {
+    font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.5;
+  padding-left: 50rpx;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 368rpx;
+}
+
+.next {
+  width:700rpx;
+  height:80rpx;
+  background:rgba(115,165,250,1);
+  border-radius:40rpx;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height:50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next::after {
+  border: none;
+}

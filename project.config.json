@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wx6a2503d3d8fa133a",
+	"projectname": "%E8%80%81%E6%9D%BF%E5%B8%AE%E6%89%8B",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "关联手机号",
+					"pathName": "pages/relationPhone/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "填写个人信息1",
+					"pathName": "pages/rejester/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "填写个人信息2",
+					"pathName": "pages/rejester/personal2/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}

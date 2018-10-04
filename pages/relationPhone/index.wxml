@@ -1,0 +1,12 @@
+<!--pages/relationPhone/index.wxml-->
+<image class='relaBg' src='/images/relationPhone.png'></image>
+
+<view class='relaButon'>
+  <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">关联手机号</button>
+</view>
+
+<view class='tips'>
+手机号码仅用于验证身份，非经本人同意，不会泄露给第三 方。请确认关联手机号码。若放弃关联，则不能享受后续服 务。
+</view>
+
+<view class='tips1'>若不能关联，请先升级至微信最新版本</view>

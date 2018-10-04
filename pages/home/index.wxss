@@ -1,0 +1,33 @@
+.swiper {
+  height:  100%;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+/* @font-face {
+    font-family: maokai;
+    src:url('/font/maokai.TTF');
+} */
+.LoginR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 151rpx;
+  width: 100%;
+  height:30rpx;
+  font-size:32rpx;
+  font-family:maokai;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+
+.Login {
+  margin-right: 20rpx;
+}
+.line {
+  margin-right: 20rpx;
+}
