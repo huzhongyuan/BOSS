@@ -3,7 +3,9 @@
     "pages/home/index",
     "pages/relationPhone/index",
     "pages/rejester/index",
-    "pages/rejester/personal2/index"
+    "pages/rejester/personal2/index",
+    "pages/rejester/searchCompany/index",
+    "pages/rejester/handAddCompany/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",

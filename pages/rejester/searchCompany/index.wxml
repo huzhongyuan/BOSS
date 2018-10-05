@@ -1,0 +1,34 @@
+<!--pages/rejester/searchCompany/index.wxml-->
+<view class='searchBox'>
+  <input class='search' placeholder='输入企业全称、简称' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);opacity:0.5;'></input>
+  <view>搜索</view>
+</view>
+
+<view class='notfind' style='display: {{notfind}}'>
+  <view class='row1' catchtap='addConpany'>没找到搜索的企业</view>
+  <view class='row2' catchtap='addConpany'>手动添加</view>
+</view>
+
+<view class='find' style='display: {{find}}'>
+  <view class='findBox' wx:for="{{ list }}" wx:key="unique" data-index='{{index}}'>
+    <view class='name'><wxc-elip>{{ item.title }}</wxc-elip></view>
+    <view class='men'>
+      <view class='findBoxTips'>单位法人</view>
+      <wxc-elip class="des">{{ item.name }}</wxc-elip>
+    </view>
+    <view class='prove'>
+      <view class='findBoxTips'>营业执照</view>
+      <wxc-elip class='des'>{{ item.prove }}</wxc-elip>
+    </view>
+    <view class='place'><wxc-elip>{{ item.place }}</wxc-elip></view>
+  </view>
+</view>
+
+<view class='findTips' style='display: {{find}}'>
+  <view class='row1' catchtap='addConpany'>没找到搜索的企业</view>
+  <view class='row2' catchtap='addConpany'>手动添加</view>
+</view>
+
+<!-- <view class='sure'>
+  <button>确定</button>
+</view> -->

@@ -1,0 +1,169 @@
+/* pages/rejester/searchCompany/index.wxss */
+
+page {
+  margin: 0rpx;
+  padding: 0rpx;
+}
+
+/* //文本超出1 */
+
+.l1 {
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.searchBox {
+  height: 120rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBox input {
+  background: rgba(242, 241, 241, 1);
+  border-radius: 10rpx;
+  width: 560rpx;
+  height: 60rpx;
+  padding: 0 21rpx;
+  margin-left: 24rpx;
+}
+
+.searchBox view {
+  font-size: 32rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 28rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.notfind {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 353rpx;
+}
+
+.notfind view {
+  /* display: flex;
+  justify-content: center; */
+  width: 670rpx;
+}
+
+.row1 {
+  font-size: 32rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(120, 120, 120, 1);
+}
+
+.row2 {
+  font-size: 32rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(115, 165, 250, 1);
+}
+
+.findBox {
+  background-color: white;
+  padding: 31rpx;
+}
+.findBox > view {
+  /* display: flex;
+  align-items: center; */
+
+}
+.name {
+  font-size: 30rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  height: 70rpx;
+}
+
+.men {
+  font-size: 26rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.45;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.prove {
+  font-size: 26rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.45;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.place {
+  font-size: 26rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.45;
+  height: 50rpx;
+}
+
+.findBoxTips {
+  margin-right: 55rpx;
+
+}
+
+.des {
+    height: 50rpx;
+    width: 500rpx;
+  /* overflow: hidden;
+   text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  */
+}
+
+
+.findTips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  widows: 100%;
+  flex-direction: column;
+  margin-top: 136rpx;
+}
+
+.sure {
+  position: flex;
+  width: 100%;
+  bottom: 80rpx;
+}
+
+.sure button::after {
+  border: none;
+}
+
+.sure button {
+  width: 700rpx;
+  height: 80rpx;
+  background: rgba(115, 165, 250, 1);
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
