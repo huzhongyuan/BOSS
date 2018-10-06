@@ -1,6 +1,35 @@
+/* pages/rejester/autoAddCompany/index.wxss */
 /* pages/rejester/handAddCompany/index.wxss */
 /* pages/rejester/index.wxss */
+.headTips {
+  position: absolute;
+  height:80rpx;
+  width: 100%;
+  background:rgba(255,255,255,1);
+  box-shadow:6rpx 2rpx 18rpx 3rpx rgba(204,204,204,0.26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.to_anthen {
+  display: flex;
+}
 
+.to_anthen > view{
+  width:110rpx;
+  height:44rpx;
+  border:1rpx solid rgba(113,169,254,1);
+  border-radius:20rpx;
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(113,169,254,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 73rpx;
+}
 .header {
   height: 200rpx;
   display: flex;
@@ -10,21 +39,12 @@
   background-color: white;
 }
 
-.userAvatarUrl {
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 50%;
-  margin-bottom: 20rpx;
-  object-fit: cover;
-  overflow: hidden;
+.header image {
+  width:100rpx;
+  height:100rpx;
+  border-radius:50%;
 }
 
-.userNickName {
-  font-size: 32rpx;
-  font-family: SourceHanSansCN-Regular;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 1);
-}
 
 .content {
   background-color: white;
@@ -34,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0rpx 27rpx;
+  margin: 0rpx 24rpx;
   height: 80rpx;
 }
 
@@ -46,6 +66,12 @@ input {
   display: flex;
   align-items: center;
   width: 300rpx;
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  line-height:50px;
+  opacity:0.5;
 }
 
 .tips image {
@@ -76,14 +102,13 @@ input {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 647rpx;
+  margin-top: 108rpx;
 }
 
 .next {
   width:700rpx;
-  height:80rpx;
-  background:rgba(115,165,250,1);
-  border-radius:40rpx;
+  height:70rpx;
+background:rgba(113,169,254,1);
   font-size:32rpx;
   font-family:SourceHanSansCN-Regular;
   font-weight:400;

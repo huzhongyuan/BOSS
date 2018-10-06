@@ -5,7 +5,17 @@
     "pages/rejester/index",
     "pages/rejester/personal2/index",
     "pages/rejester/searchCompany/index",
-    "pages/rejester/handAddCompany/index"
+    "pages/rejester/handAddCompany/index",
+    "pages/rejester/autoAddCompany/index",
+    "pages/index/index",
+    "pages/index/demand/index",
+    "pages/index/report/index",
+    "pages/index/share/index",
+    "pages/index/recommend/index",
+    "pages/index/addproduce/index",
+    "pages/index/userbrowse/index",
+    "pages/customer/index",
+    "pages/my/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -16,5 +26,31 @@
   },
   "networkTimeout": {
     "request": 10000
-  }
+  },
+    "tabBar": {
+      "color": "#666",
+      "selectedColor": "#71A9FE",
+      "position": "bottom",
+      "borderStyle": "white",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "images/icon/index.png",
+          "selectedIconPath": "images/icon/index2.png"
+        },
+        {
+          "pagePath": "pages/customer/index",
+          "text": "客户",
+          "iconPath": "images/icon/customer.png",
+          "selectedIconPath": "images/icon/customer2.png"
+        },
+        {
+          "pagePath": "pages/my/index",
+          "text": "我的",
+          "iconPath": "images/icon/my.png",
+          "selectedIconPath": "images/icon/my2.png"
+        }
+      ]
+    }
 }

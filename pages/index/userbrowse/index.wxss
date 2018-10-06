@@ -1,0 +1,244 @@
+/* pages/index/userbrowse/index.wxss */
+
+/* pages/index/demand/index.wxss */
+
+page {
+  background: rgba(245, 245, 245, 1);
+}
+
+.list {
+  background: rgba(255, 255, 255, 1);
+  padding-bottom: 43rpx;
+}
+
+.listHeader {
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0rpx 24rpx;
+}
+
+.listHeaderT1 {
+  width: 70rpx;
+  height: 40rpx;
+  background: rgba(113, 169, 254, 1);
+  border-radius: 4rpx;
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20rpx;
+}
+
+.listHeaderT2 {
+  width: 1rpx;
+  height: 36rpx;
+  background: rgba(198, 198, 198, 1);
+  margin-right: 21rpx;
+}
+
+.listHeaderT3 {
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(113, 169, 254, 1);
+  margin-right: 21rpx;
+}
+
+.listHeaderT4 {
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(113, 169, 254, 1);
+}
+
+.listHeaderT5 {
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  position: absolute;
+  right: 24rpx;
+}
+
+.listPerson {
+  height: 120rpx;
+  background: rgba(255, 255, 255, 1);
+  padding: 0 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.listPerson image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.name {
+  font-size: 30rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.liistPersonTip {
+  font-size: 24rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  width: 500rpx;
+}
+
+.lsitContent {
+  padding: 0 25rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lsitContent > view {
+  width: 700rpx;
+}
+
+.listContentTitle {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  width: 500rpx;
+  font-size: 36rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.listContentC {
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.8;
+}
+
+.listPictor {
+  margin: 22rpx 25rpx 0rpx 25rpx;
+  /* overflow-x: scroll;
+  white-space:nowrap; */
+}
+
+.listPictor image {
+  width: 230rpx;
+  height: 210rpx;
+  margin-right: 6rpx;
+}
+
+.reportBox {
+  height: 104rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24rpx;
+}
+
+.leaveMessage {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.leaveMessage image {
+  width: 30rpx;
+  height: 26rpx;
+  margin-right: 14rpx;
+}
+
+.report {
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 50px;
+  opacity: 0.5;
+}
+
+.messageBox {
+  width: 656rpx;
+  background: rgba(245, 245, 245, 1);
+  border-radius: 4px;
+  padding: 25rpx;
+  margin: 22rpx;
+  margin-bottom: 43rpx;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  background: rgba(245, 245, 245, 1);
+  width: 750rpx;
+  height: 98rpx;
+}
+
+.menu > view {
+  display: flex;
+  align-items: center;
+}
+
+.menu image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 16rpx;
+}
+
+.line {
+  height: 1px;
+  background: rgba(205, 205, 205, 1);
+}
+
+.relativeBox {
+  margin-top: 27rpx;
+}
+
+.relativeTip {
+  height: 80rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  padding: 0 25rpx;
+  font-size: 30rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(113, 169, 254, 1);
+}
+
+.relativeConetn {
+  padding: 0 25rpx;
+  margin-bottom: 150rpx;
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.8;
+}

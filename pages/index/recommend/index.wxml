@@ -1,0 +1,49 @@
+<!--pages/index/recommend/index.wxml-->
+<view class='line'></view>
+
+<view class='header'>
+  <view class='mytips'>我的产品</view>
+
+  <checkbox-group  class='myList' bindchange="checkboxChange">
+    <view class='mydesBox'>
+      <view class='myTitle'>客户管理小程序</view>
+      <view class='myContent'>国内领先的微信小程序开发工具制作过程...</view>
+    </view>
+    <view class='check'> 
+     <label class="checkbox" wx:for="{{items}}">
+    <checkbox  checked="{{item.checked}}"/>{{item.value}}
+  </label>
+  </view>
+</checkbox-group>
+</view>
+
+
+
+
+<view class='collectBox'>
+  <view class='mytips'>我的收藏</view>
+
+    <checkbox-group  class='myList' bindchange="checkboxChange">
+    <view class='mydesBox'>
+      <view class='myTitle'>客户管理小程序</view>
+      <view class='myContent'>国内领先的微信小程序开发工具制作过程...</view>
+    </view>
+    <view class='check'> 
+     <label class="checkbox" wx:for="{{items}}">
+    <checkbox  checked="{{item.checked}}"/>{{item.value}}
+  </label>
+  </view>
+</checkbox-group>
+</view>
+
+
+<view class='noproduceBox' catchtap='addproduce'>
+  <image src='/images/index1.png'></image>
+  <view class='noT1'>没有你要的产品？</view>
+  <view class='noT2'>到这里自己填写</view>
+</view>
+
+
+<view class='sureBox'>
+<button class='sure'>确定</button>
+</view>

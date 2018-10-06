@@ -1,0 +1,57 @@
+<!--pages/index/demand/index.wxml-->
+<view class='list' catchtap='to_detail'>
+  <view class='listHeader'>
+    <view class='listHeaderT1'>设计</view>
+    <view class='listHeaderT2'></view>
+    <view class='listHeaderT3'>商会</view>
+    <view class='listHeaderT4'>公司发展</view>
+    <view class='listHeaderT5'>今天 08：35</view>
+  </view>
+  <view class='listPerson'>
+    <image class='hp' src='/images/index1.png'></image>
+    <view class='listPersonInfo'>
+      <view class='name'>与大悲</view>
+      <view class='liistPersonTip'>图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员</view>
+    </view>
+  </view>
+  <view class='lsitContent'>
+    <view class='listContentTitle'>急需注册急需注册商标急需注册商标急需注册商标急需注册商标商标</view>
+    <view class='listContentC'>我是做家纺的，申请商标、名字，想找做商标的申请一个商标，名字也可以帮我们想一想，同时查一查能否注册（我们是做家纺的，要跟这个靠点普）谢谢啦！ 我在线等候~~~</view>
+  </view>
+  <view class='listPictor'>
+    <image wx:for="{{photolist}}" src='{{item}}'></image>
+  </view>
+
+  <view class='reportBox'>
+    <view class='leaveMessage'>
+      <image src='/images/icon/leaveMessage.png'></image>
+      <view>留言</view>
+    </view>
+    <view class='report'>举报</view>
+  </view>
+
+
+  <view class='messageBox'>
+    hzy:alfdsafdsaf
+  </view>
+
+
+
+
+
+</view>
+<view class='line'></view>
+  <view class='menu'>
+    <view class='shareBox'  catchtap='share'>
+      <image src='/images/icon/share.png'></image>
+      <view>分享</view>
+    </view>
+    <view class='collect'>
+      <image src='/images/icon/collection.png'></image>
+      <view>收藏</view>
+    </view>
+    <view class='recommend'>
+      <image src='/images/icon/recommend.png'></image>
+      <view>推荐</view>
+    </view>
+  </view>

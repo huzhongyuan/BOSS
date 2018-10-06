@@ -1,2 +1,44 @@
 <!--pages/rejester/handAddCompany/index.wxml-->
-<text>pages/rejester/handAddCompany/index.wxml</text>
+<!--pages/rejester/index.wxml-->
+<view class='content'>
+  <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png'></image>
+      <view >企业全称</view>
+    </view>
+    <input  placeholder='未填写' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);opacity:0.5;"></input>
+  </view>
+
+
+  <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png' style='opacity:0'></image>
+      <view>简称</view>
+    </view>
+    <input disabled="true" placeholder='未填写' value='{{phoneNumber}}' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);opacity:0.5;"></input>
+  </view>
+
+
+    <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png' style='opacity:0'></image>
+      <view>单位法人</view>
+    </view>
+    <input  placeholder='选填' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);opacity:0.5;"></input>
+  </view>
+
+
+    <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png' style='opacity:0'></image>
+      <view>营业执照</view>
+    </view>
+    <input placeholder='选填' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);opacity:0.5;" ></input>
+  </view>
+
+</view>
+
+<view class='footer'>
+  <button class='next' catchtap='next'>确定</button>
+</view>
+

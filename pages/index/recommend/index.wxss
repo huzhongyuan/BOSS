@@ -1,0 +1,90 @@
+/* pages/index/recommend/index.wxss */
+.mytips {
+  width:700rpx;
+  height:70rpx;
+  background:rgba(255,255,255,1);
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(113,169,254,1);
+  display: flex;
+  align-items: center;
+  padding: 0 25rpx;
+}
+
+
+.myList {
+  width: 700rpx;
+  padding: 0 25rpx;
+  height:140rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myTitle {
+  width: 529rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.myContent {
+    width: 529rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.collectBox {
+  margin-top: 30rpx;
+  
+}
+
+.noproduceBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+  margin-top: 155rpx;
+}
+.noproduceBox image{
+  width:150rpx;
+  height:150rpx;
+  border:2px solid rgba(204,204,204,1);
+  border-radius:8px;
+}
+.noT1 {
+  margin-top: 20rpx;
+}
+.noT2 {
+  margin-top: 20rpx;
+}
+
+.sureBox {
+  margin-top: 74rpx;
+}
+
+.sure {
+  width:700rpx;
+  height:80rpx;
+  background:rgba(113,169,254,1);
+  border-radius:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.sure::after {
+  border: none;
+}

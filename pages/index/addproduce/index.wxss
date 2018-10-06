@@ -1,3 +1,4 @@
+/* pages/index/addproduce/index.wxss */
 /* pages/rejester/handAddCompany/index.wxss */
 /* pages/rejester/index.wxss */
 
@@ -35,7 +36,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0rpx 27rpx;
-  height: 80rpx;
+  height:100rpx;
 }
 
 input {
@@ -56,6 +57,7 @@ input {
 .tips view {
   display: flex;
   flex-direction: row;
+  opacity: 0.5;
 }
 .upload {
   font-size: 28rpx;
@@ -76,14 +78,13 @@ input {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 647rpx;
+  margin-top: 91rpx;
 }
 
 .next {
-  width:700rpx;
-  height:80rpx;
+  width:750rpx;
+  height:88rpx;
   background:rgba(115,165,250,1);
-  border-radius:40rpx;
   font-size:32rpx;
   font-family:SourceHanSansCN-Regular;
   font-weight:400;
@@ -95,4 +96,27 @@ input {
 }
 .next::after {
   border: none;
+}
+
+.selectBox {
+  display: flex;
+}
+
+.texta {
+width:670rpx;
+height:200rpx;
+background:rgba(238,238,238,1);
+border-radius:5px;
+margin-top: 10rpx;
+padding: 10rpx;
+}
+.textbox {
+  margin: 0 30rpx;
+
+}
+
+.photoList image{
+  width:124rpx;
+  height:109rpx;
+  margin-right: 22rpx;
 }

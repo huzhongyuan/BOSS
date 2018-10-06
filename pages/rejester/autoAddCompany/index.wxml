@@ -1,0 +1,57 @@
+<!--pages/rejester/autoAddCompany/index.wxml-->
+<!--pages/rejester/handAddCompany/index.wxml-->
+<!--pages/rejester/index.wxml-->
+<view class='headTips' style='opacity: {{ headerTips }}'>
+  <view style='margin-left:25rpx;'>企业还未认证去</view>
+  <view class='to_anthen'>
+    <view>去认证</view>
+    <wxc-icon type='close' style='position:absolute;top:0rpx;right: 25rpx;'> </wxc-icon>
+  </view>
+  <!-- <view class='close'></view> -->
+</view>
+
+<view class='header'>
+  <image src='/images/index1.png'></image>
+</view>
+<view class='content'>
+  <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png' style='opacity:0'></image>
+      <view >企业全称</view>
+    </view>
+    <input  placeholder='未填写' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);"></input>
+  </view>
+
+
+  <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png' style='opacity:0'></image>
+      <view>简称</view>
+    </view>
+    <input disabled="true" placeholder='未填写' value='{{phoneNumber}}' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);"></input>
+  </view>
+
+
+    <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png' style='opacity:0'></image>
+      <view>类型</view>
+    </view>
+    <input  placeholder='选填' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);"></input>
+  </view>
+
+
+    <view class='box'>
+    <view class='tips'>
+      <image src='/images/icon/star.png' style='opacity:0'></image>
+      <view>营业执照</view>
+    </view>
+    <input placeholder='选填' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);" ></input>
+  </view>
+
+</view>
+
+<view class='footer'>
+  <button class='next' catchtap='next'>编辑</button>
+</view>
+

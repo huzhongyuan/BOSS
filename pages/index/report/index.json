@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wxc-select": "/packages/@minui/wxc-select/dist/index"
+  }
+}

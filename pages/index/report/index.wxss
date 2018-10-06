@@ -1,0 +1,79 @@
+/* pages/index/report/index.wxss */
+/* page {
+  width: 700rpx;
+} */
+.header {
+  height:100rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  align-items: center;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(115,165,250,1);
+  padding-left: 25rpx;
+}
+.line {
+  background:rgba(245,244,244,1);
+  height: 10rpx;
+}
+
+.checkBox {
+  display: flex;
+  flex-direction: column;
+}
+.inputReport {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 220rpx;
+  align-items: center;
+}
+.inputReport textarea{
+  width:628rpx;
+  height:100rpx;
+  background:rgba(245,244,244,1);
+  border:1px solid rgba(175,175,175,1);
+  border-radius:5rpx;
+}
+
+.uploadBox {
+  height:200rpx;
+  background:rgba(255,255,255,1);
+}
+
+.uploadBox view {
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25rpx;
+}
+
+.photoList {
+  background-color: white;
+}
+
+.photoList image {
+  width:124rpx;
+  height:109rpx;
+  margin-left: 40rpx;
+}
+
+.reportButton {
+  position: absolute;
+  bottom: 0rpx;
+  width:750rpx;
+  height:80rpx;
+  background:rgba(0,0,0,1);
+  opacity:0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
