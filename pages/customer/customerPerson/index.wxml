@@ -1,0 +1,40 @@
+<!--pages/customer/customerPerson/index.wxml-->
+<view class='genjin'>
+  <view>跟进中</view>
+  <wxc-icon type='arrow-right'></wxc-icon>
+</view>
+
+<view class='header'>
+  <view class='headerImg'>
+    <image src='/images/index2.png'></image>
+  </view>
+  <view class='headerInfo'>
+    <view class='headerL1'>
+      <view class='headerName'>胡呼呼</view>
+      <view class='changeNumber'>
+        <image src='/images/icon/star.png'></image>
+        <view>交换电话</view>
+      </view>
+    </view>
+    <view class='headerL2'>啦啦啦啦</view>
+  </view>
+</view>
+
+
+<view class='collectTime'>
+  dahfdsafdsa
+</view>
+
+<view class='push'>
+  dshafdsafdsa
+</view>
+
+<view class='recommend'>
+  <view>fdafdaffdsd哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈afdsa</view>
+  <view class='ropen'>
+    <view>展开</view>
+    <wxc-icon type='arrow-down'> </wxc-icon>
+  </view>
+</view>
+
+<view class='line'></view>

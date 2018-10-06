@@ -24,6 +24,8 @@ Page({
   },
   //完成
   conplete: function (e) {
-
+    wx.navigateTo({
+      url: './../searchCompany/index',
+    })
   }
 })

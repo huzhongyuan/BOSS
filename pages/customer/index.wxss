@@ -1,1 +1,106 @@
 /* pages/customer/index.wxss */
+.searchBox {
+  width:684rpx;
+  height:120rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  flex-direction: row;
+  padding: 0rpx 33rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchBox input {
+  width:490rpx;
+  height:70rpx;
+  background:rgba(240,240,240,1);
+  border-radius:5rpx;
+  padding: 0 40rpx;
+  color:rgba(0,0,0,1);
+}
+.searchBox view {
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+}
+
+.noCustomer {
+  margin-top: 316rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.noCL1 {
+  font-size:30rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+}
+.noCL2 {
+  font-size:30rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+}
+
+.noCL3 {
+  width:200rpx;
+height:70rpx;
+background:rgba(113,169,254,1);
+font-size:32rpx;
+font-family:SourceHanSansCN-Normal;
+font-weight:400;
+color:rgba(255,255,255,1);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 64rpx;
+}
+
+.personBox {
+  padding: 0 25rpx;
+}
+.personHeader {
+  display: flex;
+  align-items: center;
+  height:120rpx;
+  background:rgba(255,255,255,1);
+
+}
+.personHeader image {
+  width:80rpx;
+  height:80rpx;
+  border-radius:50%;
+  margin-right: 22rpx;
+}
+
+.lunch {
+  display: flex;
+  align-items: center;
+  margin-right: 69rpx;
+}
+.lunch image{
+  width: 30rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+.leave  {
+  display: flex;
+  align-items: center;
+}
+.leave image {
+    width: 30rpx;
+  height: 24rpx;
+    margin-right: 10rpx;
+}
+
+.option {
+  display: flex;
+  justify-content: flex-end;
+  height:100rpx;
+  background:rgba(255,255,255,1);
+  align-items: center;
+}

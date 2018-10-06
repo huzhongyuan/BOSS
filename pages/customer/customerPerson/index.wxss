@@ -1,0 +1,113 @@
+/* pages/customer/customerPerson/index.wxss */
+
+page {
+  background-color: white;
+}
+
+.genjin {
+  display: flex;
+  height: 88rpx;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 25rpx;
+}
+
+.genjin > view {
+  margin-right: 22rpx;
+}
+
+.header {
+  display: flex;
+  height: 120rpx;
+  padding: 0 25rpx;
+  align-items: center;
+}
+
+.headerImg {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 23rpx;
+}
+
+.headerImg image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerL1 {
+  display: flex;
+  justify-content: space-between;
+  width: 575rpx;
+  font-size: 30rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.changeNumber image {
+  width: 20rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+
+.changeNumber {
+  display: flex;
+  align-items: center;
+}
+
+.headerL2 {
+  font-size: 24rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.5;
+}
+
+.collectTime {
+  background: rgba(245, 245, 245, 1);
+  border-radius: 5rpx;
+  margin: 0 25rpx;
+  padding: 17rpx 24rpx;
+  margin-top: 45rpx;
+}
+
+.push {
+  background: rgba(245, 245, 245, 1);
+  border-radius: 5rpx;
+  margin: 0 25rpx;
+  padding: 17rpx 24rpx;
+  margin-top: 45rpx;
+}
+
+.recommend {
+  background: rgba(245, 245, 245, 1);
+  border-radius: 5rpx;
+  margin: 0 25rpx;
+  padding: 17rpx 24rpx;
+  margin-top: 45rpx;
+}
+
+.ropen {
+  display: flex;
+  justify-content: flex-end;
+  font-size:24rpx;
+font-family:SourceHanSansCN-Normal;
+font-weight:400;
+color:rgba(0,0,0,1);
+opacity:0.5;
+}
+.ropen view {
+  margin-right: 11rpx;
+}
+
+.line {
+  height: 20rpx;
+   background-color: #F8F8F8;
+   margin-top: 51rpx;
+}

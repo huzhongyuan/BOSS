@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 12,
+			"current": 14,
 			"list": [
 				{
 					"id": -1,
@@ -113,7 +113,20 @@
 				{
 					"id": -1,
 					"name": "推荐后用户浏览（userbrowse/",
-					"pathName": "pages/index/userbrowse/index"
+					"pathName": "pages/index/userbrowse/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客户（customer",
+					"pathName": "pages/customer/index",
+					"query": ""
+				},
+				{
+					"id": 14,
+					"name": "客户详情（customerPerson",
+					"pathName": "pages/customer/customerPerson/index",
+					"query": ""
 				}
 			]
 		}

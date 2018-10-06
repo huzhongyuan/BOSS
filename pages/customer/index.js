@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    noCustomer: 'none',//没有客户的时候显示
+    result: [{
+      img: '/images/index1.png',
+      name: 'huzhongyuan',
+      show: 'none'
+    },
+      {
+        img: '/images/index1.png',
+        name: 'huzhongyuan',
+        show: 'none'
+      }],
   },
 
   /**
@@ -15,6 +25,31 @@ Page({
 
   },
 
+  //展示客户更多信息
+  showInfo: function(e) {
+    console.log(e.currentTarget.dataset.index);
+    let that = this;
+    let isshow = that.data.result[e.currentTarget.dataset.index].show;
+    console.log(isshow);
+    if (isshow == "none") {
+      let isw = 'result[' + e.currentTarget.dataset.index + '].show';
+      that.setData({
+        [isw]: 'flex'
+      })
+    } else {
+      let isw = 'result[' + e.currentTarget.dataset.index + '].show';
+      that.setData({
+        [isw]: 'none'
+      })
+    }
+  },
+
+//转到客户详情
+  to_leaveMeassage: function(e) {
+    wx.navigateTo({
+      url: './customerPerson/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
