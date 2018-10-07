@@ -1,2 +1,40 @@
 <!--pages/my/index.wxml-->
-<text>pages/my/index.wxml</text>
+<view class='header' catchtap='to_personal'>
+  <view class='personInfo'>
+    <view class='name'>胡钟元</view>
+    <view class='position'>职位</view>
+  </view>
+  <view class='headImg'>
+    <open-data type="userAvatarUrl" class="userAvatarUrl"></open-data>
+    <wxc-icon type="arrow-right"></wxc-icon>
+  </view>
+</view>
+
+<view class='ListBox'>
+  <view class='list'>
+    <image class='listIcon' src='/images/icon/my.png'></image>
+    <view class='tips'>我的客户</view>
+  </view>
+
+  <view class='list'>
+    <image class='listIcon' src='/images/icon/my.png'></image>
+    <view class='tips'>我的收藏</view>
+  </view>
+
+
+  <view class='list'>
+    <image class='listIcon' src='/images/icon/my.png'></image>
+    <view class='tips'>我的产品</view>
+  </view>
+
+  <view class='list'>
+    <image class='listIcon' src='/images/icon/my.png'></image>
+    <view class='tips'>我的需求</view>
+  </view>
+
+  <view class='list'>
+    <image class='listIcon' src='/images/icon/my.png'></image>
+    <view class='tips'>我的推荐</view>
+  </view>
+
+</view>

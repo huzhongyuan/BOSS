@@ -1,0 +1,92 @@
+/* pages/my/enterpriseInfo/index.wxss */
+.header {
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.userAvatarUrl {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.userNickName {
+  font-size: 32rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.inBox {
+  padding:0 25rpx;
+  height:88rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input{
+  text-align: right;
+  font-size:28rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+
+.iTips {
+  font-size:30rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+line-height:50px;
+opacity:0.5;
+}
+
+.edit {
+width:700rpx;
+height:70rpx;
+background:rgba(113,169,254,1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0px auto;
+  margin-top: 50rpx;
+}
+
+.headTips {
+  position: absolute;
+  height:80rpx;
+  width: 100%;
+  background:rgba(255,255,255,1);
+  box-shadow:6rpx 2rpx 18rpx 3rpx rgba(204,204,204,0.26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.to_anthen {
+  display: flex;
+}
+
+.to_anthen > view{
+  width:110rpx;
+  height:44rpx;
+  border:1rpx solid rgba(113,169,254,1);
+  border-radius:20rpx;
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(113,169,254,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 73rpx;
+}

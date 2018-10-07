@@ -1,0 +1,38 @@
+<!--pages/customer/accepeFirends/index.wxml-->
+<!--pages/customer/shareFirends/index.wxml-->
+<view class='header'>
+  <view class='headerImg'>
+    <image src='/images/index2.png'></image>
+  </view>
+  <view class='headerInfo'>
+    <view class='headerL1'>
+      <view class='headerName'>胡呼呼</view> 
+    </view>
+    <view class='headerL2'>啦啦啦啦</view>
+  </view>
+</view>
+
+
+<view class='content'>
+  fdsafjdsafdsa
+</view>
+
+<view class='line'></view>
+
+
+<view class='recommend'>
+  <view class='rL1'>
+    <view class='rwordT'>推荐语</view>
+    <!-- <view class='reditT'>
+      <image src='/images/icon/edit2.png'></image>
+      <view catchtap='isEdit'>{{ editTip }}</view>
+    </view> -->
+  </view>
+  <textarea disabled="{{ isEdit }}">啦啦啦啦啦啦啦啦啦</textarea>
+</view>
+
+<view>
+<button class='shareFi'>加到我的客户列表</button>
+<view class='to_home' catchtap='to_home'>到首页去</view>
+</view>
+

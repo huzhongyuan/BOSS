@@ -1,0 +1,37 @@
+<!--pages/customer/shareFirends/index.wxml-->
+<view class='header'>
+  <view class='headerImg'>
+    <image src='/images/index2.png'></image>
+  </view>
+  <view class='headerInfo'>
+    <view class='headerL1'>
+      <view class='headerName'>胡呼呼</view> 
+    </view>
+    <view class='headerL2'>啦啦啦啦</view>
+  </view>
+</view>
+
+
+<view class='content'>
+  fdsafjdsafdsa
+</view>
+
+<view class='line'></view>
+
+
+<view class='recommend'>
+  <view class='rL1'>
+    <view class='rwordT'>推荐语</view>
+    <view class='reditT'>
+      <image src='/images/icon/edit2.png'></image>
+      <view catchtap='isEdit'>{{ editTip }}</view>
+    </view>
+  </view>
+  <textarea disabled="{{ isEdit }}">啦啦啦啦啦啦啦啦啦</textarea>
+</view>
+
+
+<button  bindtap="showDialog" class='shareFi'>推荐给好友</button>
+
+
+ <wxc-dialog class="wxc-dialog" title="标题" content="客户信息带有客户的个人隐私， 请谨慎发送。" confirm-text="确定" cancel-text="取消" bindconfirm="onConfirm" bindcancel="onCancel"></wxc-dialog>

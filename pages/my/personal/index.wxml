@@ -1,0 +1,47 @@
+<!--pages/my/personal/index.wxml-->
+<view class='header'>
+  <open-data type="userAvatarUrl" class="userAvatarUrl"></open-data>
+  <open-data type="userNickName" lang="zh_CN" class="userNickName"></open-data>
+</view>
+
+<view class='InfoBox'>
+  <view class='inBox'>
+    <view class='iTips'>姓名</view>
+    <input class='i' value='胡钟元' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>关联手机号</view>
+    <input class='i' value='18523589236' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>常用手机号</view>
+    <input class='i' value='12355655555' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>身份证号码</view>
+    <input class='i' value='500109199710212510' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>家庭住址</view>
+    <input class='i' value='重庆市北碚区' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>任职单位</view>
+    <input class='i' value='重庆邮电大学' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>任职部门</view>
+    <input class='i' value='总经办' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>所任职务</view>
+    <input class='i' value='经理' disabled="{{ isedit }}"></input>
+  </view>
+    <view class='inBox'>
+    <view class='iTips'>办公电话</view>
+    <input class='i' value='1546464665464' disabled="{{ isedit }}"></input>
+  </view>
+</view>
+
+
+<view class='edit' catchtap='edit'>{{edit}}</view>

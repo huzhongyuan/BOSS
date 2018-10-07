@@ -1,4 +1,4 @@
-// pages/my/index.js
+// pages/customer/accepeFirends/index.js
 Page({
 
   /**
@@ -14,11 +14,14 @@ Page({
   onLoad: function (options) {
 
   },
-
-  //转到个人资料
-  to_personal: function(e) {
-    wx.navigateTo({
-      url: './personal/index',
+  //转到首页
+  to_home: function(e) {
+    console.log(e);
+    // wx.navigateTo({
+    //   url: '/pages/index/index',
+    // })
+    wx.switchTab({
+      url: '/pages/index/index',
     })
   },
   /**

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wxc-dialog": "/packages/@minui/wxc-dialog/dist/index"
+  },
+  "navigationBarTitleText": "好友推荐"
+}

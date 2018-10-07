@@ -111,3 +111,138 @@ opacity:0.5;
    background-color: #F8F8F8;
    margin-top: 51rpx;
 }
+
+
+.noteMessage {
+  display: flex;
+  align-items: center;
+  height:80rpx;
+  background:rgba(255,255,255,1);
+  justify-content: space-between;
+}
+
+.noteMessage image {
+  width:22rpx;
+  height:22rpx;
+  margin-right:15rpx;
+}
+
+.noteMessageBox {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25rpx;
+}
+
+.editor {
+  display: flex;
+  align-items: center;
+}
+
+.noteTip {
+  font-size:26rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(113,169,254,1);
+}
+
+.editor view {
+  font-size:26rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+
+
+.noteContent {
+  display: flex;
+  background:rgba(255,255,255,1);
+  flex-direction: column;
+}
+
+.noteContentC {
+  margin-top: 25rpx;
+}
+
+.noteTime {
+  font-size:24rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+opacity:0.5;
+}
+
+.noteContentC {
+  font-size:26rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+opacity:0.8;
+}
+
+.noteFooter {
+  height:90rpx;
+background:rgba(255,255,255,1);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+font-size:24rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+
+.addNote {
+  display: flex;
+  align-items: center;
+}
+
+.addNote image {
+  width: 24rpx;
+  height: 24rpx;
+  margin-left: 9rpx;
+}
+
+.noteHis {
+  margin-right: 46rpx;
+}
+
+.leaveMessge {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.leaveMessgeR {
+
+  font-size:26rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(46,97,176,1);
+display: flex;
+justify-content: flex-end;
+}
+
+.loadMoreL {
+  height:80rpx;
+background:rgba(255,255,255,1);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+font-size:26rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(46,97,176,1);
+}
+
+
+.shareFirend{
+  height:88rpx;
+background:rgba(113,169,254,1);
+margin-top: 69rpx;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:32rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(255,255,255,1);
+}

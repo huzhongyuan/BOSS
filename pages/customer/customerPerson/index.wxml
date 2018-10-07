@@ -12,7 +12,7 @@
     <view class='headerL1'>
       <view class='headerName'>胡呼呼</view>
       <view class='changeNumber'>
-        <image src='/images/icon/star.png'></image>
+        <image src='/images/icon/phone.png'></image>
         <view>交换电话</view>
       </view>
     </view>
@@ -38,3 +38,54 @@
 </view>
 
 <view class='line'></view>
+
+<view class='noteMessageBox'>
+  <view class='noteMessage'>
+    <view class='noteTip'>备注记录</view>
+    <view class='editor'>
+      <image src='/images/icon/edit.png'></image>
+      <view>编辑</view>
+    </view>
+  </view>
+
+  <view class='noteContent'>
+    <view class='noteTime'>昨天 21:20</view>
+    <view class='noteContentC'>此人为公司信息部门负责人，他们老板急于做电商系统。前日微信沟通过，他们主要是想做自有商品，但有很多子公司，产品品类很多，估计要</view>
+  </view>
+
+  <view class='noteFooter'>
+    <view class='noteHis'>历史记录</view>
+    <view class='addNote'>
+      <view>添加记录</view>
+      <image src='/images/icon/add.png'></image>
+    </view>
+  </view>
+</view>
+
+
+
+
+<view class='noteMessageBox'>
+  <view class='noteMessage'>
+    <view class='noteTip'>留言记录</view>
+    <!-- <view class='editor'>
+      <image src='/images/icon/edit.png'></image>
+      <view>编辑</view>
+    </view> -->
+  </view>
+
+  <view class='noteContent'>
+    <view class='noteTime leaveMessge'>昨天 21:20</view>
+    <view class='noteContentC'>此人为公司信息部门负责人，他们老板急于做电商系统。前日微信沟通过，他们主要是想做自有商品，但有很多子公司，产品品类很多，估计要</view>
+  </view>
+
+  <view class='leaveMessgeR'>
+    回复
+  </view>
+
+  <view class='loadMoreL'>更多留言记录</view>
+</view>
+
+
+
+<view class='shareFirend'>推荐给好友</view>

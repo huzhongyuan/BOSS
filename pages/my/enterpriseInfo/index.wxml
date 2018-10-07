@@ -1,0 +1,55 @@
+<!--pages/my/enterpriseInfo/index.wxml-->
+<view class='headTips' style='opacity: {{ headerTips }}'>
+  <view style='margin-left:25rpx;'>企业还未认证去</view>
+  <view class='to_anthen'>
+    <view>去认证</view>
+    <wxc-icon type='close' style='position:absolute;top:0rpx;right: 25rpx;'> </wxc-icon>
+  </view>
+  <!-- <view class='close'></view> -->
+</view>
+
+<view class='header'>
+  <open-data type="userAvatarUrl" class="userAvatarUrl"></open-data>
+  <!-- <open-data type="userNickName" lang="zh_CN" class="userNickName"></open-data> -->
+</view>
+<view class='InfoBox'>
+  <view class='inBox'>
+    <view class='iTips'>企业全称</view>
+    <input class='i' value='重庆黑鸥菩科技有限公司' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>简称</view>
+    <input class='i' value='黑鸥科技' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>类型</view>
+    <input class='i' value='科技公司' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>营业执照</view>
+    <input class='i' value='942564649719674166498' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>行业类别</view>
+    <input class='i' value='互联网' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>法人代表</view>
+    <input class='i' value='张安权' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>法人手机</view>
+    <input class='i' value='13420152038' disabled="{{ isedit }}"></input>
+  </view>
+  <view class='inBox'>
+    <view class='iTips'>注册地址</view>
+    <input class='i' value='沙坪坝区红槽房正街蓝溪谷地99号' disabled="{{ isedit }}"></input>
+  </view>
+    <view class='inBox'>
+    <view class='iTips'>办公地址</view>
+    <input class='i' value='沙坪坝区红槽房正街蓝溪谷地99号' disabled="{{ isedit }}"></input>
+  </view>
+</view>
+
+
+<view class='edit' catchtap='edit'>{{edit}}</view>

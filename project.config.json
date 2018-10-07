@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 14,
+			"current": 19,
 			"list": [
 				{
 					"id": -1,
@@ -127,6 +127,35 @@
 					"name": "客户详情（customerPerson",
 					"pathName": "pages/customer/customerPerson/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "推荐给好友（shareFirens",
+					"pathName": "pages/customer/shareFirends/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "推荐 好友接受界面",
+					"pathName": "pages/customer/accepeFirends/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的 (my",
+					"pathName": "pages/my/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "个人资料 (personal",
+					"pathName": "pages/my/personal/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "企业信息 (enterprise",
+					"pathName": "pages/my/enterpriseInfo/index"
 				}
 			]
 		}

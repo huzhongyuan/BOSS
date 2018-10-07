@@ -1,11 +1,12 @@
-// pages/my/index.js
+// pages/my/personal/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    isedit: true,
+    edit: '编辑'
   },
 
   /**
@@ -15,11 +16,22 @@ Page({
 
   },
 
-  //转到个人资料
-  to_personal: function(e) {
-    wx.navigateTo({
-      url: './personal/index',
-    })
+//点击编辑
+  edit: function(e) {
+    let that = this;
+    if (that.data.isedit) {
+      let isedit = that.data.isedit;
+      that.setData({
+        isedit: !isedit,
+        edit: '保存'
+      })
+    } else {
+      let isedit = that.data.isedit;
+      that.setData({
+        isedit: !isedit,
+        edit: '编辑'
+      })
+    }
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

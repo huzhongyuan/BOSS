@@ -1,0 +1,126 @@
+/* pages/customer/accepeFirends/index.wxss */
+/* pages/customer/shareFirends/index.wxss */
+page {
+  background-color: white;
+}
+.header {
+  display: flex;
+  height: 120rpx;
+  padding: 0 25rpx;
+  align-items: center;
+}
+
+.headerImg {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 23rpx;
+}
+
+.headerImg image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerL1 {
+  display: flex;
+  justify-content: space-between;
+  width: 575rpx;
+  font-size: 30rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.changeNumber image {
+  width: 20rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+
+.changeNumber {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 0 25rpx;
+  background:rgba(245,245,245,1);
+  border-radius:5rpx;
+  margin: 25rpx;
+}
+
+.line {
+  height: 20rpx;
+  background:rgba(245,245,245,1);
+}
+
+.recommend  {
+  margin: 25rpx;
+}
+.rL1 {
+  height:68rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.rL1 image {
+  width:28rpx;
+height:28rpx;
+margin-right: 21rpx;
+}
+.rL1 > view {
+  display: flex;
+}
+
+
+.rwordT {
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(113,169,254,1);
+}
+
+.reditT {
+  display: flex;
+  align-items: center;
+}
+
+.recommend textarea {
+  /* margin: 25rpx; */
+}
+
+.shareFi {
+  width:700rpx;
+  height:80rpx;
+  background:rgba(113,169,254,1);
+  border-radius:40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  margin: 0px auto;
+  margin-top:325rpx;
+}
+
+.to_home {
+  font-size:32rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(113,169,254,1);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25rpx;
+}

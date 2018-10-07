@@ -16,7 +16,11 @@
     "pages/index/userbrowse/index",
     "pages/customer/index",
     "pages/customer/customerPerson/index",
-    "pages/my/index"
+    "pages/customer/shareFirends/index",
+    "pages/customer/accepeFirends/index",
+    "pages/my/index",
+    "pages/my/personal/index",
+    "pages/my/enterpriseInfo/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",

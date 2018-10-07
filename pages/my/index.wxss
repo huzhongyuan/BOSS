@@ -1,1 +1,59 @@
 /* pages/my/index.wxss */
+.header {
+  height:180rpx;
+  background:rgba(255,255,255,1);
+  padding: 0 39rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.personInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.headImg {
+  display: flex;
+  align-items: center;
+}
+
+.userAvatarUrl {
+  width:100rpx;
+  height:100rpx;
+  border-radius:50%;
+  margin-right: 39rpx;
+  overflow: hidden;
+}
+
+.name {
+  font-size:48rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+}
+
+.position {
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+  margin-top: 21rpx;
+}
+.ListBox {
+  background-color: white;
+  padding:0 40rpx;
+}
+.list {
+  height:100rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  align-items: center;
+}
+
+.list image {
+  width:34rpx;
+  height:33rpx;
+  margin-right: 33rpx;
+}
