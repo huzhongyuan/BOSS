@@ -1,0 +1,61 @@
+<!--pages/my/myrecommend/index.wxml-->
+<!--pages/my/mycollection/index.wxml-->
+
+  <wxc-tab
+    bind:tabchange="onClick"
+    default-index="{{4}}"
+    active-text-color="#108ee9"
+    active-line-color="#108ee9"
+    component-id="c1"
+    animate="{{true}}"
+  >
+    <wxc-tab-panel
+      wx:for="{{tabs}}"
+      wx:for-item="tab"
+      wx:key="{{tab.content}}"
+      tab-index="{{index}}"
+      component-id="c1"
+      label="{{tab.title}}"
+    >
+      {{tab.content}}
+    </wxc-tab-panel>
+
+  </wxc-tab>
+
+
+
+<!-- <view class='list' wx:for="{{ result }}" >
+  <view class='listInfoBox' catchtap='to_detail'>
+    <wxc-elip class='title'>{{ item.title }}</wxc-elip>
+    <wxc-elip class='content'> {{  item.content }} </wxc-elip>
+  </view>
+  <wxc-icon type='arrow-right' size="30"></wxc-icon>
+</view>
+ -->
+
+<view class='toother' style='display: {{ toother }}'>
+<view class='list'>
+    <view class='listPerson'>
+    <image class='hp' src='/images/index1.png'></image>
+    <view class='listPersonInfo'>
+      <view class='name'>与大悲</view>
+      <view class='liistPersonTip'>图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员</view>
+    </view>
+  </view>
+</view>
+<view class='listtips'>2018-03-04 推荐给 胡钟元</view>
+</view>
+
+
+<view class='tome' style='display: {{ tome }}'>
+<view class='listtips'>2018-03-04 推荐给 胡钟元</view>
+<view class='list'>
+    <view class='listPerson'>
+    <image class='hp' src='/images/index1.png'></image>
+    <view class='listPersonInfo'>
+      <view class='name'>与大悲</view>
+      <view class='liistPersonTip'>图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员</view>
+    </view>
+  </view>
+</view>
+</view>

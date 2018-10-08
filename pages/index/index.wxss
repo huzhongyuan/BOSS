@@ -164,7 +164,7 @@
   margin-right: 6rpx;
 }
 .menu {
-  margin:64rpx 0;
+  padding:40rpx 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -172,6 +172,8 @@
   font-family:SourceHanSansCN-Regular;
   font-weight:400;
   color:rgba(0,0,0,1);
+  /* height: 80rpx; */
+  align-items: center;
 }
 .menu > view {
   display: flex;

@@ -28,7 +28,12 @@ Page({
   onLoad: function (options) {
 
   },
-
+  //转到公司详情
+  to_detal: function(e) {
+    wx.navigateTo({
+      url: '/pages/rejester/autoAddCompany/index',
+    })
+  },
   addConpany: function(e) {
     wx.navigateTo({
       url: '/pages/rejester/handAddCompany/index',

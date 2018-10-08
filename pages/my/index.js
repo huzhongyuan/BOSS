@@ -21,6 +21,44 @@ Page({
       url: './personal/index',
     })
   },
+
+  //转到我的客户
+  tocustormer: function(e) {
+    wx.navigateTo({
+      url: '/pages/my/customerPerson/index',
+    })
+  },
+
+  //转到我的收藏
+  tomycollect: function (e) {
+    wx.navigateTo({
+      url: '/pages/my/mycollection/index',
+    })
+  },
+  //转到我的产品
+  tomyproduce: function (e) {
+    wx.navigateTo({
+      url: '/pages/my/myprosuce/index',
+    })
+  },
+  //转到我的需求
+  tomydemand: function (e) {
+    wx.navigateTo({
+      url: '/pages/my/mydemand/index',
+    })
+  },
+  //转到我的推荐
+  tomyrecommend: function (e) {
+    wx.navigateTo({
+      url: '/pages/my/myrecommend/index',
+    })
+  },
+  //我的发票
+  tomyreinvoice: function(e) {
+    wx.navigateTo({
+      url: '/pages/my/myinvoice/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

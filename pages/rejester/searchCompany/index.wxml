@@ -9,8 +9,8 @@
   <view class='row2' catchtap='addConpany'>手动添加</view>
 </view>
 
-<view class='find' style='display: {{find}}'>
-  <view class='findBox' wx:for="{{ list }}" wx:key="unique" data-index='{{index}}'>
+<view class='find' style='display: {{find}}'> 
+  <view class='findBox' wx:for="{{ list }}" wx:key="unique" data-index='{{index}}' catchtap='to_detal'>
     <view class='name'><wxc-elip>{{ item.title }}</wxc-elip></view>
     <view class='men'>
       <view class='findBoxTips'>单位法人</view>

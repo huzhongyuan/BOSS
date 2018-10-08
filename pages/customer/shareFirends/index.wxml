@@ -27,7 +27,7 @@
       <view catchtap='isEdit'>{{ editTip }}</view>
     </view>
   </view>
-  <textarea disabled="{{ isEdit }}">啦啦啦啦啦啦啦啦啦</textarea>
+  <textarea disabled="{{ isEdit }}" placeholder='啦啦啦啦啦'></textarea>
 </view>
 
 

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的需求",
+  "usingComponents": {
+    "wxc-elip": "/packages/@minui/wxc-elip/dist/index",
+    "wxc-icon": "/packages/@minui/wxc-icon/dist/index"
+  }
+}

@@ -1,0 +1,63 @@
+/* pages/my/addinvoice/index.wxss */
+.Box {
+  padding: 0 25rpx;
+  margin-top: 10rpx;
+  background-color: white;
+}
+.listBox {
+  display: flex;
+  height:100rpx;
+  align-items: center;
+}
+
+.title {
+font-size:28rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+/* margin-right: 46rpx; */
+width: 180rpx;
+}
+
+.personal {
+  width:120rpx;
+height:40rpx;
+/* border:2rpx solid rgba(73,140,232,1); */
+border-radius:20rpx;
+font-size:28rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+/* color:rgba(73,140,232,1); */
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 37rpx;
+}
+
+.company {
+width:120rpx;
+height:40rpx;
+/* background:rgba(73,140,232,1); */
+border-radius:20rpx;
+font-size:28rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+/* color:rgba(255,255,255,1); */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.save {
+  position: fixed;
+  width: 100%;
+  bottom: 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80rpx;
+background:rgba(73,140,232,1);
+font-size:36rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(255,255,255,1);
+}

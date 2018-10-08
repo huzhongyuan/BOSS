@@ -1,0 +1,84 @@
+/* pages/my/checkinvoice/index.wxss */
+
+.header {
+  display: flex;
+  margin: 0 25rpx;
+  align-items: center;
+  justify-content: space-between;
+  height: 74rpx;
+}
+
+.tips {
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+}
+
+.edit {
+  font-size:28rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(73,140,232,1);
+}
+
+.listBox {
+  display: flex;
+  height:100rpx;
+  align-items: center;
+}
+
+.title {
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+width: 180rpx;
+}
+
+.Box {
+  padding: 0 25rpx;
+  background-color: white;
+}
+
+
+.img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:320rpx;
+  background:rgba(255,255,255,1);
+  flex-direction: column;
+}
+.img image {
+  width:200rpx;
+height:200rpx;
+}
+
+.img view{
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+  margin-top: 24rpx;
+}
+
+
+.save {
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:80rpx;
+background:rgba(73,140,232,1);
+font-size:36rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(255,255,255,1);
+}

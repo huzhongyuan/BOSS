@@ -105,5 +105,5 @@
 </view>
 
 <view class='footer'>
-  <button class='next' catchtap='next'>保存</button>
+  <button class='next' catchtap='save'>保存</button>
 </view>

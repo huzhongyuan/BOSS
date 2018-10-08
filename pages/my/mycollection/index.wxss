@@ -1,1 +1,39 @@
 /* pages/my/mycollection/index.wxss */
+/* pages/my/myprosuce/index.wxss */
+.list {
+  background-color: white;
+  padding: 0 25rpx;
+  height:156rpx;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.listInfoBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+    width: 600rpx;
+  font-size:32rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+
+.content {
+  width: 600rpx;
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+  margin-top: 21rpx;
+}
+
+.line {
+  height: 10rpx;
+  background:rgba(238,238,238,1);
+}

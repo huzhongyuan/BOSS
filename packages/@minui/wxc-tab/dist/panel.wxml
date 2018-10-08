@@ -1,0 +1,10 @@
+<view class="tab__panel" hidden="{{tabIndex !== activeKey}}">
+    <slot><view class='list' wx:for="{{ result }}" catchtap='to_detail'>
+  <view class='listInfoBox'>
+    <wxc-elip class='title'>{{ item.title }}1111</wxc-elip>
+    <wxc-elip class='content'> {{  item.content }} </wxc-elip>
+  </view>
+  <wxc-icon type='arrow-right' size="30"></wxc-icon>
+</view>
+</slot>
+</view>

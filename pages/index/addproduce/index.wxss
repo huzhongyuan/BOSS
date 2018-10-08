@@ -78,7 +78,8 @@ input {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 91rpx;
+  position: absolute;
+  bottom: 0rpx;
 }
 
 .next {

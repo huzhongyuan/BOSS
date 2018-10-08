@@ -75,7 +75,9 @@ input {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 368rpx;
+  position: fixed;
+  bottom: 88rpx;
+  width: 100%;
 }
 
 .next {

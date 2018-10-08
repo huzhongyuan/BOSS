@@ -7,7 +7,7 @@
 
 
 
-<view class='personBox' wx:for="{{result}}" wx:key="unique" >
+<view class='personBox' wx:for="{{result}}" wx:key="unique"  catchtap='to_leaveMeassage' >
   <view class='personHeader' catchtap='showInfo' data-index= '{{ index }}' >
     <image src='{{ item.img }}'></image>
     <view> {{ item.name }}</view>
@@ -20,7 +20,7 @@
       <image src='/images/icon/lunch.png'></image>
       <view>推荐好友</view>
     </view>
-    <view class='leave' catchtap='to_leaveMeassage'>
+    <view class='leave'>
       <image src='/images/icon/leaveMessage.png'></image>
       <view>留言</view>
     </view>

@@ -1,0 +1,13 @@
+<!--pages/my/myinvoice/index.wxml-->
+<view class='addBox' catchtap='addinvoice'>
+  <image src='/images/icon/inadd.png'></image>
+  <view>添加发票抬头</view>
+</view>
+<view class='list' wx:for="{{ result }}" catchtap='to_detail'>
+  <view class='listInfoBox' catchtap='to_detail'>
+    <wxc-elip class='title'>{{ item.title }}</wxc-elip>
+    <wxc-elip class='content'> {{  item.content }} </wxc-elip>
+  </view>
+  <wxc-icon type='arrow-right' size="30"></wxc-icon>
+</view>
+

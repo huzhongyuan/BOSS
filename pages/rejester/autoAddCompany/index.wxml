@@ -52,6 +52,6 @@
 </view>
 
 <view class='footer'>
-  <button class='next' catchtap='next'>编辑</button>
+  <button class='next' catchtap='next'>确定</button>
 </view>
 

@@ -1,0 +1,41 @@
+<!--pages/my/checkinvoice/index.wxml-->
+<view class='header'>
+  <view class='tips'>单位发票抬头</view>
+  <view class='edit' catchtap='edit' style='display: {{ isedit ? "none" : "flex" }}'>编辑</view>
+</view>
+
+
+<view class='Box'>
+  <view class='listBox'>
+    <view class='title'>名称</view>
+    <input placeholder='重庆黑鸥菩科技有限公司' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);'></input>
+  </view>
+    <view class='listBox'>
+    <view class='title'>税号</view>
+    <input placeholder='5521646516546546HASIHG' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);'></input>
+  </view>
+    <view class='listBox'>
+    <view class='title'>单位地址</view>
+    <input placeholder='重庆市南岸区南坪街道南城大道199号' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);'></input>
+  </view>
+    <view class='listBox'>
+    <view class='title'>电话号码</view>
+    <input placeholder='14589753687' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);'></input>
+  </view>
+    <view class='listBox'>
+    <view class='title'>开户银行</view>
+    <input placeholder='中国银行重庆万寿花支行' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);'></input>
+  </view>
+    <view class='listBox'>
+    <view class='title'>银行账户</view>
+    <input placeholder='4446 4654 464 ' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);'></input>
+  </view>
+
+  <view class='img' style='display: {{ isedit ? "none" : "flex" }}'>
+    <image src='/images/index2.png'></image>
+    <view>开票时可出示</view>
+  </view>
+</view>
+
+
+<view class='save' catchtap='save' style='display: {{ isedit ? "flex" : "none" }}'>保存</view>

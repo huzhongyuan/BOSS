@@ -20,7 +20,12 @@ Page({
       index: e.detail.value
     })
   },
-
+  //保存
+  save: function(e) {
+    wx.navigateBack({
+      delta: 1
+    })
+  },
   //点击上传图片
   upload: function(e) {
     let that = this;

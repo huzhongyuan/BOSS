@@ -5,16 +5,49 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    result: [{
+      title: '啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦',
+      content: 'hahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahha'
+    },
+    {
+      title: '啦啦啦啦',
+      content: '啦啦啦啦啦'
+    }, {
+      title: '啦啦啦啦',
+      content: '啦啦啦啦啦'
+    }],
+    tabs: [
+      { title: '产品' },
+      { title: '需求' }
+    ],
+    tab: 0
   },
+  onClick: function (e) {
 
+    console.log(e.detail.key);
+    this.setData({
+      tab: e.detail.key
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
+  //产品详情
+  to_detail: function(e) {
+    if(this.data.tab == 0) {
+      wx.navigateTo({
+        url: './../prosuceinfo/index'
+      })
+    } else {
+      wx.navigateTo({
+        url: '/pages/index/demand/index'
+      })
+    }
 
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

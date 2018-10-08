@@ -1,2 +1,32 @@
 <!--pages/my/mycollection/index.wxml-->
-<text>pages/my/mycollection/index.wxml</text>
+
+  <wxc-tab
+    bind:tabchange="onClick"
+    default-index="{{4}}"
+    active-text-color="#108ee9"
+    active-line-color="#108ee9"
+    component-id="c1"
+    animate="{{true}}"
+  >
+    <wxc-tab-panel
+      wx:for="{{tabs}}"
+      wx:for-item="tab"
+      wx:key="{{tab.content}}"
+      tab-index="{{index}}"
+      component-id="c1"
+      label="{{tab.title}}"
+    >
+      {{tab.content}}
+    </wxc-tab-panel>
+
+  </wxc-tab>
+
+
+
+<view class='list' wx:for="{{ result }}" catchtap='to_detail'>
+  <view class='listInfoBox' catchtap='to_detail'>
+    <wxc-elip class='title'>{{ item.title }}</wxc-elip>
+    <wxc-elip class='content'> {{  item.content }} </wxc-elip>
+  </view>
+  <wxc-icon type='arrow-right' size="30"></wxc-icon>
+</view>

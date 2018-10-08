@@ -1,0 +1,110 @@
+<!--pages/my/pushdemand/index.wxml-->
+<!--pages/index/addproduce/index.wxml-->
+<!--pages/rejester/handAddCompany/index.wxml-->
+<!--pages/rejester/index.wxml-->
+<view class='content'>
+  <view class='box'>
+    <view class='tips'>
+      <view>名称</view>
+    </view>
+    <input placeholder='未填写' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);"></input>
+  </view>
+
+
+  <view class='box'>
+    <view class='tips'>
+      <view>类别</view>
+    </view>
+    <view class='selectBox'>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          {{array[index]}}
+          <wxc-icon type="arrow-right"></wxc-icon>
+        </view>
+      </picker>
+
+    </view>
+
+  </view>
+
+
+  <view class='box'>
+    <view class='tips'>
+      <view>行业</view>
+    </view>
+    <view class='selectBox'>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          {{array[index]}}
+          <wxc-icon type="arrow-right"></wxc-icon>
+        </view>
+      </picker>
+
+    </view>
+
+  </view>
+
+
+
+  <view class='box'>
+    <view class='tips'>
+      <view>标签</view>
+    </view>
+    <view class='selectBox'>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          {{array[index]}}
+          <wxc-icon type="arrow-right"></wxc-icon>
+        </view>
+      </picker>
+
+    </view>
+
+  </view>
+
+  <view class='textbox'>
+    <view class='tips'>
+      <view>描述</view>
+    </view>
+    <textarea class='texta'>
+
+    </textarea>
+  </view>
+
+  <view class='box'>
+    <view class='tips'>
+      <view>图片</view>
+    </view>
+    <view class='selectBox' catchtap='upload'>
+      <view style='opacity:0.5'>点击上传图片</view>
+      <wxc-icon type="arrow-right"></wxc-icon>
+    </view>
+
+  </view>
+
+  <view class='photoList'>
+    <image wx:for="{{photoList}}" src='{{item}}'></image>
+  </view>
+
+  <view class='box'>
+    <view class='tips'>
+      <view>所属企业</view>
+    </view>
+    <input placeholder='' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);"></input>
+  </view>
+
+
+  <view class='box'>
+    <view class='tips'>
+      <view>联系电话</view>
+    </view>
+    <input placeholder='' placeholder-style="font-size:28rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);"></input>
+  </view>
+
+
+
+</view>
+
+<view class='footer'>
+  <button class='next' catchtap='save'>保存</button>
+</view>
