@@ -88,4 +88,4 @@
 
 
 
-<view class='shareFirend'>推荐给好友</view>
+<view class='shareFirend' catchtap='shareF'>推荐给好友</view>

@@ -1,11 +1,11 @@
-// pages/index/demand/index.js
+// pages/my/prosuceinfo/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    photolist: ['/images/index1.png', '/images/index1.png', '/images/index1.png', '/images/index1.png']
+    photolist: ['/images/index1.png', '/images/index1.png', '/images/index1.png']
   },
 
   /**
@@ -14,19 +14,27 @@ Page({
   onLoad: function (options) {
 
   },
-
-  share: function(e) {
-    console.log(1);
+//编辑
+  edit: function(e) {
     wx.navigateTo({
-      url: './../share/index',
+      url: '/pages/index/addproduce/index',
     })
   },
-
-  //推荐
-  recommend: function(e) {
-    wx.navigateTo({
-      url: './../recommend/index'
-    })
+  showDialog() {
+    let dialogComponent = this.selectComponent('.wxc-dialog')
+    dialogComponent && dialogComponent.show();
+  },
+  hideDialog() {
+    let dialogComponent = this.selectComponent('.wxc-dialog')
+    dialogComponent && dialogComponent.hide();
+  },
+  onConfirm() {
+    console.log('点击了确认按钮')
+    this.hideDialog()
+  },
+  onCancel() {
+    console.log('点击了取消按钮')
+    this.hideDialog()
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

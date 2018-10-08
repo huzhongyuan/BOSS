@@ -20,7 +20,11 @@
     "pages/customer/accepeFirends/index",
     "pages/my/index",
     "pages/my/personal/index",
-    "pages/my/enterpriseInfo/index"
+    "pages/my/enterpriseInfo/index",
+    "pages/my/customerPerson/index",
+    "pages/my/myprosuce/index",
+    "pages/my/prosuceinfo/index",
+    "pages/my/mycollection/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",

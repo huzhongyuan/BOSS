@@ -15,6 +15,13 @@ Page({
 
   },
 
+
+  //推荐给好友
+  shareF: function(e) {
+    wx.navigateTo({
+      url: './../shareFirends/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

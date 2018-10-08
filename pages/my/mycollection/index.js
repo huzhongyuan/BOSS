@@ -1,11 +1,11 @@
-// pages/index/demand/index.js
+// pages/my/mycollection/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    photolist: ['/images/index1.png', '/images/index1.png', '/images/index1.png', '/images/index1.png']
+
   },
 
   /**
@@ -15,19 +15,6 @@ Page({
 
   },
 
-  share: function(e) {
-    console.log(1);
-    wx.navigateTo({
-      url: './../share/index',
-    })
-  },
-
-  //推荐
-  recommend: function(e) {
-    wx.navigateTo({
-      url: './../recommend/index'
-    })
-  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

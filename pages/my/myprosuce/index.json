@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的产品",
+  "usingComponents": {
+    "wxc-elip": "/packages/@minui/wxc-elip/dist/index",
+    "wxc-icon": "/packages/@minui/wxc-icon/dist/index"
+  }
+}

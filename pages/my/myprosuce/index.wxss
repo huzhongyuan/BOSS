@@ -1,0 +1,60 @@
+/* pages/my/myprosuce/index.wxss */
+.list {
+  background-color: white;
+  padding: 0 25rpx;
+  height:156rpx;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.listInfoBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+    width: 600rpx;
+  font-size:32rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+
+.content {
+  width: 600rpx;
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+  margin-top: 21rpx;
+}
+
+.line {
+  height: 10rpx;
+  background:rgba(238,238,238,1);
+}
+
+.footer {
+  width: 750rpx;
+  position: absolute;
+  bottom: 191rpx;
+}
+.add {
+
+  width:200rpx;
+  height:80rpx;
+  background:rgba(255,255,255,1);
+  border-radius:40rpx;
+  box-shadow:0px 13px 36px 4px rgba(186,210,251,0.23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(113,169,254,1);
+  margin: 0 auto;
+}

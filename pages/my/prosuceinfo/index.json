@@ -1,0 +1,6 @@
+{
+      "navigationBarTitleText": "产品详情",
+    "usingComponents": {
+      "wxc-dialog": "/packages/@minui/wxc-dialog1/dist/index"
+    }
+}

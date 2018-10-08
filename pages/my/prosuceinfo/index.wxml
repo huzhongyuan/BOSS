@@ -1,3 +1,4 @@
+<!--pages/my/prosuceinfo/index.wxml-->
 <!--pages/index/demand/index.wxml-->
 <view class='list' catchtap='to_detail'>
   <view class='listHeader'>
@@ -7,6 +8,8 @@
     <view class='listHeaderT4'>公司发展</view>
     <view class='listHeaderT5'>今天 08：35</view>
   </view>
+
+  <view class='titleTips'>客户管理小程序</view>
   <view class='listPerson'>
     <image class='hp' src='/images/index1.png'></image>
     <view class='listPersonInfo'>
@@ -21,37 +24,22 @@
   <view class='listPictor'>
     <image wx:for="{{photolist}}" src='{{item}}'></image>
   </view>
-
-  <view class='reportBox'>
-    <view class='leaveMessage'>
-      <image src='/images/icon/leaveMessage.png'></image>
-      <view>留言</view>
+  <view class='footerBox'>
+    <view class='edit' catchtap='edit'>
+      <image src='/images/icon/edit.png'></image>
+      <view>编辑</view>
     </view>
-    <view class='report'>举报</view>
-  </view>
-
-
-  <view class='messageBox'>
-    hzy:alfdsafdsaf
-  </view>
-
-
-
-
-
-</view>
-<view class='line'></view>
-  <view class='menu'>
-    <view class='shareBox'  catchtap='share'>
+    <view class='share' catchtap='showDialog'>
       <image src='/images/icon/share.png'></image>
-      <view>分享</view>
-    </view>
-    <view class='collect'>
-      <image src='/images/icon/collection.png'></image>
-      <view>收藏</view>
-    </view>
-    <view class='recommend' catchtap='recommend'>
-      <image src='/images/icon/recommend.png'></image>
-      <view>推荐</view>
+      <view >分享</view>
     </view>
   </view>
+</view>
+
+
+<wxc-dialog class="wxc-dialog" title="标题" content="告知当前状态，信息和解决方法" confirm-text="保存图片"  bindconfirm="onConfirm" bindcancel="onCancel"></wxc-dialog>
+
+<!-- <view class='shareFriends'>
+  <button open-type="share">分享给好友</button>
+</view>
+ -->

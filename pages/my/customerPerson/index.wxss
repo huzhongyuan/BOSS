@@ -1,3 +1,4 @@
+/* pages/my/customerPerson/index.wxss */
 /* pages/customer/index.wxss */
 .searchBox {
   width:684rpx;

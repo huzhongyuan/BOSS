@@ -1,0 +1,15 @@
+<!--pages/my/myprosuce/index.wxml-->
+<view class='list' wx:for="{{ result }}" catchtap='to_detail'>
+  <view class='listInfoBox'>
+    <wxc-elip class='title'>{{ item.title }}</wxc-elip>
+    <wxc-elip class='content'> {{  item.content }} </wxc-elip>
+  </view>
+  <wxc-icon type='arrow-right' size="30"></wxc-icon>
+</view>
+
+
+<view class='footer'>
+<view class='add' catchtap='addproduce'>
+  添加
+</view>
+</view>

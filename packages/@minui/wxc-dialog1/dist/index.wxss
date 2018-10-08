@@ -1,0 +1,319 @@
+.dialog {
+    background: #ffffff;
+    width: 750rpx;
+    border-radius: 8rpx;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50rpx 0 10rpx 0;
+}
+.dialog__title {
+    font-size: 36rpx;
+    margin-bottom: 18rpx;
+    padding: 0 36rpx
+}
+.dialog__content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center
+}
+.dialog__content--image {
+    width: 488rpx;
+    height: 330rpx;
+    background-color: #ebebeb;
+    margin: 6rpx 36rpx 18rpx
+}
+.dialog__content--text {
+    font-size: 30rpx;
+    padding: 0 36rpx 30rpx;
+    text-align: center
+}
+.dialog__btns {
+    width: 100%;
+    line-height: 100rpx;
+    height: 100rpx;
+    border-top: 1rpx solid #e5e5e5;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 36rpx
+}
+.dialog__btns--cancel {
+    flex: 1;
+    border-right: 1rpx solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    font-size:34rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+.dialog__btns--confirm {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rpx;
+    margin: 0rpx;
+font-size:34rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(254,139,0,1);
+}
+.dialog__btns--confirm::after {
+  border: none;
+
+}
+.dialog__btns--cancel::after {
+  border: none;
+}
+
+.titleHead {
+  width: 110rpx;
+  height: 110rpx;
+  margin-bottom: 31rpx;
+}
+element.style {
+  color:rgba(254,139,0,1);
+}
+
+
+
+.listPerson {
+  width: 100%;
+  height:120rpx;
+  background:rgba(255,255,255,1);
+  padding: 0 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.listPerson image {
+  width:80rpx;
+  height:80rpx;
+  border-radius:50%;
+  margin-right: 20rpx;
+}
+
+.name {
+  font-size:30rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+}
+
+.liistPersonTip {
+  font-size:24rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.5;
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  width: 500rpx;
+}
+
+.lsitContent {
+  padding: 0 25rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lsitContent > view {
+  width: 700rpx;
+}
+.listContentTitle {
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  width: 500rpx;
+  font-size:36rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+}
+.listContentC {
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:0.8;
+}
+
+.listPictor {
+  margin: 22rpx 25rpx 0rpx 25rpx;
+  /* overflow-x: scroll;
+  white-space:nowrap; */
+  width: 100%;
+}
+
+.listPictor image{
+  width:140rpx;
+  height:130rpx;
+  margin-right: 6rpx;
+}
+
+.reportBox {
+  height: 104rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24rpx;
+}
+
+.leaveMessage {
+  display: flex;
+  align-items: center;
+  font-size:30rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+
+.leaveMessage image {
+  width:30rpx;
+  height:26rpx;
+  margin-right: 14rpx;
+}
+.report {
+  font-size:28rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+line-height:50px;
+opacity:0.5;
+}
+
+.messageBox {
+  width:656rpx;
+  background:rgba(245,245,245,1);
+  border-radius:4px;
+  padding: 25rpx;
+  margin: 22rpx;
+  margin-bottom: 43rpx;
+}
+
+
+
+.menu {
+  position: fixed;
+  bottom: 0rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  background:rgba(245,245,245,1);
+  width: 750rpx;
+  height:98rpx;
+
+}
+.menu > view {
+  display: flex;
+  align-items: center;
+}
+
+.menu image {
+  width:25rpx;
+  height:25rpx;
+  margin-right: 16rpx;
+}
+
+.line {
+  height:1px;
+background:rgba(205,205,205,1);
+}
+
+.shareFriends {
+  position: absolute;
+  bottom: 46rpx;
+}
+
+.shareFriends button {
+  width:700rpx;
+  height:80rpx;
+  background:rgba(113,169,254,1);
+  border-radius:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  margin: 0 25rpx;
+}
+.shareFriends button::after {
+  border: none;
+}
+
+.titleTips {
+  min-height:60rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  align-items: center;
+  font-size:36rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  padding: 0 25rpx;
+}
+
+.indexBg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.line {
+  height: 1rpx;
+  width: 100%;
+  background-color: #cccccc;
+}
+.indexBg image {
+  width: 240rpx;
+  height: 240rpx;
+}
+
+
+.saveP {
+  width:750rpx;
+  height:80rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:32rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+.shareF {
+    width:750rpx;
+  height:80rpx;
+  background:rgba(255,255,255,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:32rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+
+.shareF::after {
+  border: none;
+}

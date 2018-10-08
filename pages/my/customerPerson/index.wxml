@@ -1,0 +1,38 @@
+<!--pages/my/customerPerson/index.wxml-->
+<!--pages/customer/index.wxml-->
+<view class='searchBox'>
+  <input placeholder='输入姓名、电话搜索' placeholder-style='font-size:30rpx;font-family:SourceHanSansCN-Regular;font-weight:400;color:rgba(0,0,0,1);opacity:0.5;'></input>
+  <view>搜索</view>
+</view>
+
+
+
+
+<view class='personBox' wx:for="{{result}}" wx:key="unique" >
+  <view class='personHeader' catchtap='showInfo' data-index= '{{ index }}' >
+    <image src='{{ item.img }}'></image>
+    <view> {{ item.name }}</view>
+  </view>
+  <view class='tTips'  style='display: {{ item.show }}' catchtap='to_leaveMeassage'>
+      广泛的事故发生
+  </view>
+  <view class='option' style='display: {{ item.show }}'>
+    <view class='lunch'>
+      <image src='/images/icon/lunch.png'></image>
+      <view>推荐好友</view>
+    </view>
+    <view class='leave' catchtap='to_leaveMeassage'>
+      <image src='/images/icon/leaveMessage.png'></image>
+      <view>留言</view>
+    </view>
+  </view>
+</view>
+
+
+<!-- 没有客户的时候显示 -->
+<view class='noCustomer' style="display: {{noCustomer}}">
+  <view class='noCL1'>客户太少，推广一下我的产品</view>
+  <view class='noCL2'>让客户主动找上门！</view>
+  <view class='noCL3'>我的产品</view>
+</view>
+<!-- 没有客户的时候显示 -->

@@ -1,0 +1,38 @@
+<wxc-popup animation-mode="none" align="center" locked="true" class="popup" _pid="{{_pid}}">
+    <view class="dialog" catchtap="onContentTap">
+        <!-- <view class="dialog__title" wx:if="{{title}}" style="color: {{titleColor}}">{{title}}</view> -->
+        <!-- <image class='titleHead' src='/images/icon/info.png'></image>
+        <view class="dialog__content">
+            <image class="dialog__content--image" wx:if="{{image}}" src="{{image}}" mode="aspectFill"></image>
+            <view class="dialog__content--text" wx:if="{{content}}" style="color: {{contentColor}}">{{content}}</view>
+            <slot></slot>
+        </view> -->
+  <view class='titleTips'>客户管理小程序</view>
+  <view class='listPerson'>
+    <image class='hp' src='/images/index1.png'></image>
+    <view class='listPersonInfo'>
+      <view class='name'>与大悲</view>
+      <view class='liistPersonTip'>图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员图书管理员</view>
+    </view>
+  </view>
+  <view class='lsitContent'>
+    <view class='listContentTitle'>急需注册急需注册商标急需注册商标急需注册商标急需注册商标商标</view>
+    <view class='listContentC'>我是做家纺的，申请商标、名字，想找做商标的申请一个商标，名字也可以帮我们想一想，同时查一查能否注册（我们是做家纺的，要跟这个靠点普）谢谢啦！ 我在线等候~~~</view>
+  </view>
+  <view class='listPictor'>
+    <image wx:for="{{photolist}}" src='{{item}}'></image>
+  </view>
+
+  <view class='indexBg'>
+    <image src='/images/index2.png'></image>
+  </view>
+<view class='line'></view>
+
+        <!-- <view class="dialog__btns">
+            <button class="dialog__btns--cancel" wx:if="{{cancelText}}" style="color: {{cancelColor}}" bindtap="cancelCallback">{{cancelText}}</button>
+            <button class="dialog__btns--confirm"  wx:if="{{confirmText}}" style="color: {{confirmColor}}" bindtap="confirmCallback">{{confirmText}}</button> 
+        </view> -->
+        <view class='saveP'>保存图片</view>
+        <button class='shareF' open-type='share'>分享好友</button>
+    </view>
+</wxc-popup>

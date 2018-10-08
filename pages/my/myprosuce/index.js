@@ -1,11 +1,21 @@
-// pages/index/demand/index.js
+// pages/my/myprosuce/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    photolist: ['/images/index1.png', '/images/index1.png', '/images/index1.png', '/images/index1.png']
+    result: [{
+      title: '啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦',
+      content: 'hahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahhahahahha'
+    },
+      {
+        title: '啦啦啦啦',
+        content: '啦啦啦啦啦'
+      }, {
+        title: '啦啦啦啦',
+        content: '啦啦啦啦啦'
+      }]
   },
 
   /**
@@ -15,17 +25,17 @@ Page({
 
   },
 
-  share: function(e) {
-    console.log(1);
+  //添加产品
+  addproduce: function(e) {
     wx.navigateTo({
-      url: './../share/index',
+      url: '/pages/index/addproduce/index',
     })
   },
 
-  //推荐
-  recommend: function(e) {
+//转到产品详情
+  to_detail: function(e) {
     wx.navigateTo({
-      url: './../recommend/index'
+      url: './../prosuceinfo/index',
     })
   },
   /**
